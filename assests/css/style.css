@@ -11,8 +11,8 @@
 }
 
 
-#aboutme{
-    width:960px;
+#maincontent{
+    width:100%;
     background-color:rgb(255, 255, 255);
     padding:20px;
 }
