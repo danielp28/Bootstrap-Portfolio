@@ -34,7 +34,7 @@ body {
 }
 
 h2{
-    color:lightblue
+    color:#44ABA7
 }
 
 
@@ -57,3 +57,7 @@ h2{
     margin-left:9%;
     margin-right:9%;
 }
+
+.btn.btn-square {
+    border-radius: 0;
+  }
