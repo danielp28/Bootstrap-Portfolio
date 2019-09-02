@@ -1,0 +1,44 @@
+#name{
+    
+}
+
+#profile{
+    float:left;
+    width:150px;
+    height:150px;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+
+#aboutme{
+    width:960px;
+    background-color:rgb(255, 255, 255);
+    padding:20px;
+}
+
+#footer{
+    text-align:center;
+    background-color:gray;
+    flex-shrink: none;
+}
+
+html,
+body {
+  height: 100%;
+  background-color:rgba(155, 155, 155, 0.788);
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+h2{
+    color:lightblue
+}
+
+
+#navbarcontent{
+    padding-top:1%;
+    padding-bottom:1%;
+}
