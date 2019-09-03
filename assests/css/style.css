@@ -1,5 +1,9 @@
 #name{
-    
+    background: #44ABA7;
+    padding:1%;
+    color:white;
+    font-weight:bold;
+    margin-left:11.5%;
 }
 
 #profile{
@@ -11,27 +15,42 @@
 }
 
 
-#maincontent{
+#indexcontent{
     width:100%;
     background-color:rgb(255, 255, 255);
     padding:20px;
+    flex: 1 0 auto;
+}
+
+#portfoliocontent{
+    width:100%;
+    background-color:rgb(255, 255, 255);
+    padding:20px;
+    flex: 1 0 auto;
+    margin:-2%;
+}
+
+#contactcontent{
+    width:100%;
+    background-color:rgb(255, 255, 255);
+    padding:20px;
+    flex: 1 0 auto;
+    margin:-2%;
 }
 
 #footer{
     text-align:center;
     background-color:gray;
     flex-shrink: none;
+    width:100%;
+    border-top:8px solid #4aaaa5;
 }
 
-html,
 body {
   height: 100%;
-  background-color:rgba(155, 155, 155, 0.788);
+  background: url("../images/concrete_seamless.png");
 }
 
-#page-content {
-  flex: 1 0 auto;
-}
 
 h2{
     color:#44ABA7
@@ -39,8 +58,8 @@ h2{
 
 
 #navbarcontent{
-    padding-top:1%;
-    padding-bottom:1%;
+   margin-left:-11%;
+   margin-right:-11%;
 }
 
 #ph1{
